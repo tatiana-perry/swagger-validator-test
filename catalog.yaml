@@ -114,10 +114,6 @@ paths:
             of duplicate unique values, such as name or SKU; a missing or
             invalid `category_id`, `brand_id`, or `tax_class id`; or a
             conflicting `bulk_pricing_rule`.
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/ErrorResponse'
         '422':
           description: >
             `Product` was not valid. This is the result of missing required
